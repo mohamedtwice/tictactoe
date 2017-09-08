@@ -114,19 +114,19 @@ clicked(box) {
       this.gameState.gameEnded = true;
       this.setState({
         winner: 'X',
-        winnerLine: 'Match won by X'
+        winnerLine: 'Match won by X!'
       });
     } else if(result == 'O') {
       this.gameState.gameEnded = true;
       this.setState({
         winner: 'O',
-        winnerLine: 'Match won by O'
+        winnerLine: 'Match won by O!'
       });
     } else if(result == 'draw') {
       this.gameState.gameEnded = true;
       this.setState({
         winner: 'draw',
-        winnerLine: 'Match is drawn'
+        winnerLine: 'Match is a draw!'
       })
     }
     
