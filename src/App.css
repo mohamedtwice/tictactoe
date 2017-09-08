@@ -60,6 +60,12 @@
   padding: 15px;
 }
 
+#Reset {
+  background: blue;
+  color:white;
+  margin:25px 0 10px; 
+  padding: 10px 20px;
+}
 .square:nth-child(7), .square:nth-child(8), .square:nth-child(9) {
     border-bottom: 0;
 }
